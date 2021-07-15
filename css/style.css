@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+:root {
+  --pink: #fff;
+}
+
 .title {
   font-size: calc(40px + 10 * ((100vw - 320px) / 1600));
 }
@@ -1196,7 +1200,9 @@ a:hover:after {
 }
 
 .products__item {
-  padding: 0px 15px 20px 15px;
+  padding: 5px 15px 20px 15px;
+  margin: 10px;
+  border: 0.1rem solid rgba(0, 0, 0, 0.3);
 }
 
 .products__column {
