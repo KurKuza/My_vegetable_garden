@@ -1370,21 +1370,6 @@ a:hover:after {
   .header._scroll .header__wrapper:hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
-
-  ._hover-prod:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
-}
-
-@media (hover: none) {
-  ._hover-prod {
-    background-color: #fff;
-    z-index: 5;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-  }
 }
 
 ._webp .fullscreen{ background: url(../img/backk.webp) center/cover no-repeat; }
