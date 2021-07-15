@@ -801,11 +801,6 @@ window.onload = function () {
          headerElement.classList.add('_scroll');
       }
    };
-
-   const headerObserver = new IntersectionObserver(callback);
-   headerObserver.observe(headerElement);
-
-
 }
 
 //let btn = document.querySelectorAll('button[type="submit"],input[type="submit"]');
