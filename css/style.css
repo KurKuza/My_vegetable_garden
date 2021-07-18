@@ -1078,6 +1078,7 @@ body.ie ._ibg img {
 }
 
 .footer__city {
+  font-weight: 500;
   color: #000;
   font-size: calc(20px + 4 * ((100vw - 320px) / 1600));
 }
@@ -1091,6 +1092,10 @@ body.ie ._ibg img {
           justify-content: flex-end;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.footer__nomber a {
+  font-weight: 500;
 }
 
 .footer__nomber a,
@@ -1390,7 +1395,7 @@ a:hover:after {
 @media (max-width: 1470px) {
   .footer__nomber a,
   .footer p {
-    font-size: calc(20px + 4 * ((100vw - 320px) / 1150));
+    font-size: calc(18px + 6 * ((100vw - 320px) / 1150));
   }
 
   .products__images {
@@ -1446,6 +1451,15 @@ a:hover:after {
 
   .header {
     min-height: 5px;
+  }
+
+  .footer__nomber a,
+  .footer p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 
   .about-us__row {
